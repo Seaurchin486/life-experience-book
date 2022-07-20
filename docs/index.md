@@ -1,8 +1,32 @@
-# 海胆的生活冷知识
-不要徒手剥很辣的辣椒，手会火辣辣的持续很久
-入口的东西一定要注意是否发霉了过期了，如茶叶，不然你会莫名其妙拉肚子
-卫生间准备两包纸，不用查看补充，当使用第二包时，就补充一包
-无论蹲坑坐坑，待久了腿都会麻
+---
+layout: home
 
-人一天的注意力是非常珍贵的，如果你把它用在娱乐上就没办法工作了
-## 烹饪
+hero:
+  name: 海胆的生活冷知识
+  tagline: 虽然很冷，但也许有用~
+  actions:
+    - theme: brand
+      text: 开始阅读
+      link: /daily/
+    - theme: alt
+      text: 访问 GitHub
+      link: https://github.com/Seaurchin486/life-experience-book
+
+features:
+  - title: 衣
+    details: 购买，清洁衣物...
+  - title: 食
+    details: 外卖，做饭...
+  - title: 住
+    details: 租房攻略...
+  - title: 行
+    details: 出行选择...
+---
+
+<style>
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
+}
+
+</style>
