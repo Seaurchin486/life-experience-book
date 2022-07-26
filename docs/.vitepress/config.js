@@ -24,12 +24,12 @@ export default defineConfig({
       '/daily/': [
         {
           text: '日常篇',
-          collapsible: true,
           items: [
-            { text: '衣', link: '/daily/clothes/', items: [{ text: '简介', link: '/daily/clothes/'}] },
-            { text: '食', link: '/daily/food/' },
-            { text: '住', link: '/daily/house/' },
-            { text: '行', link: '/daily/traffic/' },
+            { text: '引言', link: '/daily/' },
+            { text: '衣', link: '/daily/clothes' },
+            { text: '食', link: '/daily/food' },
+            { text: '住', link: '/daily/house' },
+            { text: '行', link: '/daily/traffic' },
           ]
         }
       ],
@@ -37,6 +37,7 @@ export default defineConfig({
         {
           text: '技能篇',
           items: [
+            { text: '引言', link: '/skill/' }, // /daily/index.md
             { text: 'One', link: '/skill/one' }, // /daily/one.md
             { text: 'Two', link: '/skill/two' } // /daily/two.md
           ]
