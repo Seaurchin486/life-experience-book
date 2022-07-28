@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.4ba37b72.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"skill/one.md","lastUpdated":1658821016000}'),o={name:"skill/one.md"};function r(s,n,c,p,d,i){return a(),t("div")}var m=e(o,[["render",r]]);export{_ as __pageData,m as default};
